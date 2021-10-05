@@ -21,4 +21,6 @@
 .page-component h2 {
   font-size: 22px;
   font-weight: bold;
+  margin: 0 0 30px 0;
+  text-shadow: 2px  2px 3px var(--main-dark);
 }

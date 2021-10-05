@@ -7,7 +7,7 @@ function Navbar() {
       <ul className="nav">
         <li>
           <Link className="nav-link" to="/">
-            Home
+            <h1>Home</h1>
           </Link>
         </li>
         <li>
