@@ -1,3 +1,4 @@
+/* APP COMPONENT */
 .App {
   display: flex;
   flex-direction: column;
@@ -12,12 +13,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  min-height: 90vh;
-  border: solid 1px gray;
-  border-radius: 5px;
+  width: 100%;
+  min-height: 100vh;
 }
 
+/* NAV COMPONENT */
 .nav {
   display: flex;
 }
@@ -25,4 +25,14 @@
 .nav li {
   padding: 5px;
   margin: 10px;
+}
+
+.nav li .nav-link {
+  color: var(--main-link);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav li .nav-link:hover {
+  color: var(--main-color);
 }
