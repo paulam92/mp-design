@@ -1,4 +1,3 @@
-/* APP COMPONENT */
 .App {
   display: flex;
   flex-direction: column;
@@ -15,24 +14,11 @@
   align-items: center;
   width: 100%;
   min-height: 100vh;
+  background-color: var(--main-color);
+  color: var(--main-bright);
 }
 
-/* NAV COMPONENT */
-.nav {
-  display: flex;
-}
-
-.nav li {
-  padding: 5px;
-  margin: 10px;
-}
-
-.nav li .nav-link {
-  color: var(--main-link);
-  text-decoration: none;
+.page-component h2 {
+  font-size: 22px;
   font-weight: bold;
-}
-
-.nav li .nav-link:hover {
-  color: var(--main-color);
 }
