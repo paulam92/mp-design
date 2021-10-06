@@ -5,7 +5,6 @@ import Footer from "./components/footer";
 import Home from "./components/home";
 import Projects from "./components/projects";
 import About from "./components/about";
-import Contact from "./components/contact";
 import Loader from "./components/loader";
 // TO DO: UPDATE MOUNTAIN-BG TERNARY
 import mountainBG from "./assets/mountain-bg.jpg";
@@ -25,9 +24,6 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
-            </Route>
-            <Route path="/contact">
-              <Contact />
             </Route>
             <Route path="/">
               <Home mountainBG={mountainBG} />

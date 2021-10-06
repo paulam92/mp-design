@@ -1,0 +1,40 @@
+.about-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--main-color);
+  color: var(--main-bright);
+}
+
+.about-component h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 130px 0 120px 0;
+  text-shadow: 1px 1px 2px var(--main-dark);
+}
+
+.about-component h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 60px 0;
+  /* text-shadow: 1px 1px 2px var(--main-dark); */
+}
+
+.about-component div {
+  width: 60%;
+}
+
+.about-component div p {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+}
+
+.skills-card-wrapper {
+  border: 1px solid red;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}

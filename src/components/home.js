@@ -4,7 +4,7 @@ import "../css/home.css";
 function Home(props) {
   return (
     <div
-      className="page-component home-component"
+      className="home-component"
       style={{ backgroundImage: `url(${props.mountainBG})` }}
     >
       <h2>

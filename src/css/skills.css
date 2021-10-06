@@ -1,0 +1,15 @@
+.skills-component {
+  border: solid 2px var(--main-bright);
+  border-radius: 7px;
+  width: 50px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.skills-component p {
+  margin: 5px;
+}
+
+.skills-component div {
+  display: flex;
+}

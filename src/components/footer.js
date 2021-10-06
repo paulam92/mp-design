@@ -2,6 +2,7 @@ import "../css/footer.css";
 
 function Footer() {
   return (
+    // TO DO: UPDATE POSITION
     <footer className="footer-component">
       <ul>
         <li>
@@ -10,7 +11,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fas fa-envelope"></i>
+            <i className="fas fa-envelope" aria-hidden="true"></i>
           </a>
         </li>
         <li>
@@ -37,7 +38,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github"></i>
+            <i className="fab fa-github" aria-hidden="true"></i>
           </a>
         </li>
       </ul>
