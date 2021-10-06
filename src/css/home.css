@@ -13,7 +13,7 @@
   color: var(--main-bright);
   background-color: none;
   text-decoration: none;
-  text-shadow: 2px  2px 3px var(--main-dark);
+  text-shadow: 1px 1px 2px var(--main-dark);
   transition: all 0.5s ease;
 }
 

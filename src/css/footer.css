@@ -1,0 +1,24 @@
+.footer-component {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-component ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-component ul li i {
+  color: var(--main-bright);
+  text-shadow: 1px 1px 2px var(--main-dark);
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer-component ul li i:hover {
+  color: var(--main-grey);
+}
