@@ -45,7 +45,7 @@ function About() {
     <div className="about-component">
       <h2>About</h2>
       <h3>Hi, I’m Paula. Nice to meet you.</h3>
-      <div>
+      <div className="about-text-wrapper">
         <p>
           However, I'm at the beginning of my Web development journey,I'm
           quietly confident, naturally curious, and continuously working on
@@ -62,6 +62,7 @@ function About() {
           create digital products for both business and consumer use.
         </p>
       </div>
+      <h3>Skills</h3>
       <div className="skills-card-wrapper">
         {skillsArray.map((skillsCardEl, index) => {
           return <Skills skillsCardEl={skillsCardEl} key={index} />;

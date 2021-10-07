@@ -2,7 +2,6 @@ import "../css/footer.css";
 
 function Footer() {
   return (
-    // TO DO: UPDATE POSITION
     <footer className="footer-component">
       <ul>
         <li>
@@ -16,7 +15,7 @@ function Footer() {
         </li>
         <li>
           <a
-            href="www.linkedin.com/in/paula-mark"
+            href="https://www.linkedin.com/in/paula-mark/"
             target="_blank"
             rel="noopener noreferrer"
           >
