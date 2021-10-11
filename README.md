@@ -28,7 +28,7 @@ netlify:
 mp-design
 │
 │─── public
-└─── src
+|─── src
 │     │
 │     │─── assets
 │     │─── components
