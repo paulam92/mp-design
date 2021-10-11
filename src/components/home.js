@@ -8,8 +8,7 @@ function Home(props) {
       style={{ backgroundImage: `url(${props.mountainBG})` }}
     >
       <h2>
-        Welcome, I design and code beautifully simple things, and I love what I
-        do.
+        Welcome, my name is Paula. I love coding and designing beautifully simple things.
       </h2>
       <Link className="call-to-action-contact-link" to="/contact">
         Hire me
