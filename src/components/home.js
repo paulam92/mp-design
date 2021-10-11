@@ -10,7 +10,7 @@ function Home(props) {
       <h2>
         Welcome, my name is Paula. I love coding and designing beautifully simple things.
       </h2>
-      <Link className="call-to-action-contact-link" to="/contact">
+      <Link className="call-to-action-contact-link" to="/about">
         Hire me
       </Link>
     </div>

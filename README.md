@@ -33,6 +33,7 @@ mp-design
 │     │─── assets
 │     │─── components
 │     └─── css
+│
 │─── app.js
 │─── index.css
 │─── index.js
