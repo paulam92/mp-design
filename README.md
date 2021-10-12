@@ -18,7 +18,7 @@ Welcome, my name is Paula. I love coding and designing beautifully simple things
 
 ## Web deploy:
 
-netlify: 
+netlify: https://mp-design.netlify.app/
 
 </br>
 
@@ -32,15 +32,33 @@ mp-design
 │     │
 │     │─── assets
 │     │─── components
+            │
+            │───about.js
+            │───footer.js
+            │───home.js
+            │───loader.js
+            │───navbar.js
+            │───projectcard.js
+            │───projects.js
+            │─── package.json
+skillcard.js
 │     └─── css
-│
+            │───about.css
+            │───App.css
+            │─── footer.css
+            │───home.css
+            │───loader.css
+            │───navbar.css
+            │───projectcard.css
+            │───projects.css
+            │───skillcard.css
 │─── app.js
 │─── index.css
 │─── index.js
 │─── reset.css
 │─── var.css
-│─── app.js
 │─── .gitignore
+│─── package-lock.json
 │─── package.json
 └─── README.md
 ```
