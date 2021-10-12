@@ -33,25 +33,25 @@ mp-design
 │     │─── assets
 │     │─── components
             │
-            │───about.js
-            │───footer.js
-            │───home.js
-            │───loader.js
-            │───navbar.js
-            │───projectcard.js
-            │───projects.js
+            │─── about.js
+            │─── footer.js
+            │─── home.js
+            │─── loader.js
+            │─── navbar.js
+            │─── projectcard.js
+            │─── projects.js
             │─── package.json
 skillcard.js
 │     └─── css
-            │───about.css
-            │───App.css
+            │─── about.css
+            │─── App.css
             │─── footer.css
-            │───home.css
-            │───loader.css
-            │───navbar.css
-            │───projectcard.css
-            │───projects.css
-            │───skillcard.css
+            │─── home.css
+            │─── loader.css
+            │─── navbar.css
+            │─── projectcard.css
+            │─── projects.css
+            │─── skillcard.css
 │─── app.js
 │─── index.css
 │─── index.js
