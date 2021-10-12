@@ -6,7 +6,7 @@ import Home from "./components/home";
 import Projects from "./components/projects";
 import About from "./components/about";
 import Loader from "./components/loader";
-// TO DO: UPDATE MOUNTAIN-BG TERNARY
+// TO DO: UPDATE LOADER MOUNTAIN-BG TERNARY
 import mountainBG from "./assets/mountain-bg.jpg";
 
 

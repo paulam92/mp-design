@@ -34,3 +34,7 @@
 .nav li .nav-link:hover {
   color: var(--main-grey);
 }
+
+/* .selected {
+  color: red;
+} */

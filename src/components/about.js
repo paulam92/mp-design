@@ -1,16 +1,16 @@
 import "../css/about.css";
-import Skills from "./skills";
+import SkillCard from "./skillcard";
 
-const skillsArray = [
+const skillsDataArray = [
   {
     icon: "fab fa-dev",
     title: "Web Developer",
     descriptionText:
       "I like to code things from scratch, and enjoy bringing ideas to life in the browser.",
     listTitle: "Languages",
-    list: ["Html", "CSS", "JS"],
+    list: ["Html,", "CSS,", "JS."],
     toolsTitle: "Dev Tools",
-    tools: ["Bootstrap", "Codepen", "Github", "Gitlab"],
+    tools: ["Bootstrap,", "Codepen,", "Github,", "Gitlab."],
   },
   {
     icon: "fas fa-magic",
@@ -18,9 +18,9 @@ const skillsArray = [
     descriptionText:
       "I value simple content structure, clean design patterns, and thoughtful interactions.",
     listTitle: "Things I enjoy designing",
-    list: ["UX", "UI", "Logos", "Apps"],
+    list: ["UX,", "UI,", "Logos,", "Apps."],
     toolsTitle: "Design Tools",
-    tools: ["Figma", "Pen&Paper", "Webflow"],
+    tools: ["Figma,", "Pen&Paper,", "Webflow."],
   },
   {
     icon: "fas fa-bullhorn",
@@ -29,14 +29,14 @@ const skillsArray = [
       "I genuinely care about people, and love helping fellow designers work on their craft.",
     listTitle: "Skills",
     list: [
-      "Affiliate Marketing",
-      "SEO",
-      "Email Marketing",
-      "Costumer Service",
-      "Paid Social Media",
+      "Affiliate Marketing,",
+      "SEO,",
+      "Email Marketing,",
+      "Costumer Service,",
+      "Paid Social Media.",
     ],
     toolsTitle: "Digital Marketing Tools",
-    tools: ["Google", "Instagram"],
+    tools: ["Google,", "Instagram."],
   },
 ];
 
@@ -64,8 +64,8 @@ function About() {
       </div>
       <h3>Skills</h3>
       <div className="skills-card-wrapper">
-        {skillsArray.map((skillsCardEl, index) => {
-          return <Skills skillsCardEl={skillsCardEl} key={index} />;
+        {skillsDataArray.map((skillsCardEl, index) => {
+          return <SkillCard skillsCardEl={skillsCardEl} key={index} />;
         })}
       </div>
     </div>
