@@ -40,9 +40,8 @@ mp-design
             │─── navbar.js
             │─── projectcard.js
             │─── projects.js
-            │─── package.json
-skillcard.js
-│     └─── css
+            │─── skillcard.js
+     └─── css
             │─── about.css
             │─── App.css
             │─── footer.css
